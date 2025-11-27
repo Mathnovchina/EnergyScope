@@ -1,0 +1,72 @@
+#				incremental	total
+#phase		seconds		memory		memory
+#execute	0.015625	6242032		6242032
+### td_main.run:20(958)   option ...
+#execute	0		0		6242032
+### td_main.run:21(979)   option ...
+#execute	0		0		6242032
+### td_main.run:22(1002)   option ...
+#execute	0		0		6242032
+### td_main.run:25(1077)   solve ...
+#compile	0		1560		6243592
+##genmod times:
+##seq      seconds    cum. sec.    mem. inc.  name
+## 89            0            0            0  derstage
+## 93            0            0            0  sstatus
+## 107            0            0            0  DIMENSIONS
+## 108            0            0            0  DAYS
+## 109            0            0            0  Nbr_TD
+## 110            0            0            0  Ndata
+## 111       0.6875       0.6875     13175008  Distance
+## 112            0       0.6875            0  Selected_TD
+## 114     0.015625     0.703125      4202528  Cluster_matrix
+## 116     0.015625      0.71875      3233312  allocate_1TD_per_day
+## 118      0.03125         0.75     14759016  other_TD_null
+## 120            0         0.75        38400  limit_number_of_TD
+## 122     0.015625     0.765625      3187200  Euclidean_distance
+#genmod		0.765625	38595464	44839056
+#merge		0		2097160		46936216
+#collect	0.015625	37953104	84889320
+
+"option presolve 10;" used, but "option presolve 2;" would suffice.
+133590 variables, all binary
+133591 constraints, all linear; 400040 nonzeros
+	366 equality constraints
+	133225 inequality constraints
+1 linear objective; 132860 nonzeros.
+
+presolve results:
+	variables omitted:	0
+	constraints omitted:	0
+	ranges relaxed:		133225
+	bounds improved:	0
+	nba cycles:		1
+	bound row scans:	133591
+	row-scan updates:	0
+#presolve	0.09375		30571568	115460888
+#output		0.09375		4194312		119655200
+#Total		0.984375
+CPLEX 22.1.2:   tech:mipdisplay = 5
+  tech:mipinterval = 1000
+  mip:gap = 9.9999999999999995e-07
+
+AMPL MP initial flat model has 133590 variables (0 integer, 133590 binary);
+Objectives: 1 linear; 
+Constraints:  133591 linear;
+
+AMPL MP final model has 133590 variables (0 integer, 133590 binary);
+Objectives: 1 linear; 
+Constraints:  133591 linear;
+
+
+CPLEX 22.1.2: optimal solution; objective 7.369768048e-06
+16 simplex iterations
+#execute	0.0625		2097160		121752360
+### td_main.run:27(1085)   option ...
+### td_main.run:28(1113)   option ...
+solve_result = solved
+
+solve_result_num = 0
+
+_solve_elapsed_time = 5.407
+
