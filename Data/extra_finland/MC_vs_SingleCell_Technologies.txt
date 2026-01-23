@@ -1,0 +1,16 @@
+MC vs SINGLE-CELL TECHNOLOGY COMPARISON
+================================================================================
+
+Belgium single-cell: 111 technologies
+Finland from MC:     111 technologies
+Common:              111
+Finland-only (MC):   0
+Belgium-only:        0
+
+FINLAND-ONLY (MC additions):
+--------------------------------------------------------------------------------
+
+================================================================================
+
+BELGIUM-ONLY (potentially deprecated in MC):
+--------------------------------------------------------------------------------
